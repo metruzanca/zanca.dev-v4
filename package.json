@@ -13,8 +13,10 @@
     "@astrojs/mdx": "^1.0.0",
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.0",
+    "@astrojs/tailwind": "^5.0.0",
     "astro": "^3.0.6",
-    "sharp": "^0.32.5"
+    "sharp": "^0.32.5",
+    "tailwindcss": "^3.0.24"
   },
   "volta": {
     "node": "18.17.1"
