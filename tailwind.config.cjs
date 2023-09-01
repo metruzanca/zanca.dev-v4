@@ -14,19 +14,20 @@ module.exports = {
 	plugins: [
     require('@tailwindcss/typography'),
 
-    plugin(function maskGradientPlugin(api) {
-      api.addUtilities({
-        ".mask-radial-gradient": {
-          maskImage: "radial-gradient(rgba(0, 0, 0, 0.8), transparent 60%)",
-        },
-        ".mask-linear-gradient-to-b": {
-          maskImage: "linear-gradient(to bottom, white 0%, white 33%, transparent 90%)",
-        },
-      })
-    }),
+    // plugin(function maskGradientPlugin(api) {
+    //   api.addUtilities({
+    //     ".mask-radial-gradient": {
+    //       maskImage: "radial-gradient(rgba(0, 0, 0, 0.8), transparent 60%)",
+    //     },
+    //     ".mask-linear-gradient-to-b": {
+    //       maskImage: "linear-gradient(to bottom, white 0%, white 33%, transparent 90%)",
+    //     },
+    //   })
+    // }),
 
     plugin(function astroComponentsPlugin({ addComponents, theme }) {
       addComponents({
+        // From https://Astro.build
         // "b, strong": {
         //   fontWeight: 700,
         // },
