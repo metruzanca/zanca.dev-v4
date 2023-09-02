@@ -4,7 +4,7 @@ slug: renaming-branches
 pubDate: 2020-08-17T23:00:13.630Z
 description: How to rename GIT Branches locally and remotely
 tags: ["software-development", "git", "til"]
-heroImage: '/blog-placeholder-2.jpg'
+
 ---
 
 _TL;DR below_

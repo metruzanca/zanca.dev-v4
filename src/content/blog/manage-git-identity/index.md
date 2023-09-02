@@ -4,7 +4,7 @@ slug: manage-git-identity
 pubDate: "2020-12-20T18:48:35.562Z"
 description: "How to easily manage your GIT Identity"
 tags: ["git", "linux"]
-heroImage: '/blog-placeholder-3.jpg'
+
 ---
 
 Simply put, its the name and email that gets used in the Author field of your commits that show up in `git log` and on the git server.

@@ -4,7 +4,7 @@ slug: how-to-setup-absolute-imports-in-a-typescript-project
 pubDate: 2020-08-16T23:39:44.486Z
 description: How to setup Absolute Imports in a Typescript project
 tags: ["typescript", "til"]
-heroImage: '/blog-placeholder-3.jpg'
+
 ---
 
 If you hate seeing this:

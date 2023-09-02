@@ -5,7 +5,6 @@ pubDate: 2020-08-17T23:35:00.530Z
 description: How to easily setup a CI pipeline with github actions to deploy a
   Static Site (e.g. React or Gatsby) to Github Pages
 tags: ["git", "devops", "til"]
-heroImage: /blog-placeholder-5.jpg
 ---
 
 I often create **React** or **Gatsby** apps and usually just opt to use github pages as a host.

@@ -5,7 +5,7 @@ pubDate: 2021-04-21T00:21:18.749Z
 description: How to Automate Github Releases with a Github Actions pipeline for
   Continuous Deployment
 tags: ["git", "til", "devops"]
-heroImage: '/blog-placeholder-2.jpg'
+
 ---
 
 I've really fallen in love with github actions. They make allow you to play around with continuos integration and enable so much automation for your personal projects.

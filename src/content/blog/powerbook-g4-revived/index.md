@@ -4,7 +4,7 @@ slug: reviving-a-powerbook-g4-with-lubuntu-linux
 pubDate: 2021-04-02T22:37:39.354Z
 description: Reviving an old macbook with linux
 tags: ["linux"]
-heroImage: '/blog-placeholder-3.jpg'
+
 ---
 
 ![Apple PowerBook G4](./powerbook_redjar.jpg)
