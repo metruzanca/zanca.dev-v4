@@ -1,1 +1,1 @@
-export {default as BlogPost} from './BlogPost.astro'
+export {default as BlogPost} from './BlogLayout.astro'

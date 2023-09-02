@@ -1,26 +1,29 @@
 ---
-import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE, SOCIALS } from '../consts';
-import Twitter from './icons/Twitter.astro';
-import { Github } from './icons';
+import NavLink from './NavLink.astro';
+import { SITE_TITLE, SOCIALS } from '~/lib/consts';
+import { Github, Twitter } from '~/components/icons';
 ---
 
 <header>
-	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div>
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
+	<nav class="flex justify-between items-center pb-2">
+		<h2 class="text-2xl font-extrabold text-white">
+      <a href="/">
+        <span class="text-yellow-300">{SITE_TITLE[0]}</span>
+        {SITE_TITLE.slice(1)}
+      </a>
+    </h2>
+		<div class="grid grid-flow-col gap-1">
+			<NavLink href="/">Home</NavLink>
+			<NavLink href="/blog">Blog</NavLink>
 		</div>
-		<div class="flex">
+		<div class="hidden sm:flex">
 			<a href={SOCIALS.X.url} target="_blank">
 				<span class="sr-only">{SOCIALS.X.alt}</span>
-        <Twitter/>
+        <Twitter size="24"/>
 			</a>
 			<a href={SOCIALS.GITHUB.url} target="_blank">
 				<span class="sr-only">{SOCIALS.GITHUB.alt}</span>
-				<Github/>
+				<Github size="24"/>
 			</a>
 		</div>
 	</nav>

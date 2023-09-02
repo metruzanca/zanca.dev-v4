@@ -8,6 +8,8 @@ module.exports = {
       colors: {
         accent: '#f7e13a',
         secondary: '#111019',
+        gradient1: '#c468fd',
+        gradient2: '#6883FD',
       }
     },
 	},

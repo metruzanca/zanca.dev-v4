@@ -1,32 +1,25 @@
 ---
-import { SOCIALS } from "../consts";
+import { SOCIALS } from "~/lib/consts";
 import { Github, Twitter } from "./icons";
 // const today = new Date();
 ---
 
-<footer class="bg-gradient-to-r from-[#c468fd] to-[#6883FD] pt-[2px]">
-  <style>
-    .text-sideways {
-      writing-mode: vertical-lr;
-      text-orientation: mixed;
-      unicode-bidi: bidi-override;
-      direction: rtl;
-    }
-  </style>
-	<div class="bg-slate-800 text-slate-300">
-    Eleumas Acnaz
-    <div class="text-sideways">ZANCA</div>
-
-    <!-- Socials -->
-    <div class="flex">
-      <a href={SOCIALS.X.url} target="_blank">
-        <span class="sr-only">{SOCIALS.X.alt}</span>
-        <Twitter/>
-      </a>
-      <a href={SOCIALS.GITHUB.url} target="_blank">
-        <span class="sr-only">{SOCIALS.GITHUB.alt}</span>
-        <Github/>
-      </a>
+<footer class="bg-gradient-to-r from-[#c468fd] to-[#6883FD] pt-[2px] mt-8">
+	<div class="bg-indigo-950 text-slate-300">
+    
+    <div class="flex justify-between items-center px-2 py-4">
+      <div class="text-sideways">ZANCA</div>
+  
+      <div class="grid gap-2 text-slate-400">
+        <a href={SOCIALS.X.url} target="_blank" class="hover:text-gradient2">
+          <span class="sr-only">{SOCIALS.X.alt}</span>
+          <Twitter size="24"/>
+        </a>
+        <a href={SOCIALS.GITHUB.url} target="_blank" class="hover:text-gradient1">
+          <span class="sr-only">{SOCIALS.GITHUB.alt}</span>
+          <Github size="24"/>
+        </a>
+      </div>
     </div>
 
     

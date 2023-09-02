@@ -1,4 +1,5 @@
 ---
+draft: true # not a draft, I just don't want this on my public site anymore...
 title: "High School CS Major to Full-Time FullStack Developer"
 slug: getting-started-as-a-fullstack-developer
 pubDate: "2019-09-30T10:30:35.562Z"

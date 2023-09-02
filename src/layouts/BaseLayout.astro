@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { Html, Footer, FormattedDate, Head, Navigation } from "~/components";
+import cn, { type ClassValue } from "~/lib/styling"
+
+interface Props {
+	title: string;
+	description: string;
+	image?: string;
+  class?: ClassValue
+  hideFooter?: boolean
+}
+
+const { title, description, hideFooter } = Astro.props;
+---
+
+<Html>
+  <Head title={title} description={description} />
+  <body>
+    <main class="px-3">
+      <Navigation />
+      <div class={cn("flex justify-center", Astro.props.class)}>
+        <slot/>
+      </div>
+    </main>
+    {!hideFooter && <Footer />}
+  </body>
+</Html>

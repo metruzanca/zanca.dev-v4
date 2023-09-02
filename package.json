@@ -16,7 +16,9 @@
     "@astrojs/tailwind": "^5.0.0",
     "@tailwindcss/typography": "^0.5.9",
     "astro": "^3.0.6",
+    "clsx": "^2.0.0",
     "sharp": "^0.32.5",
+    "tailwind-merge": "^1.14.0",
     "tailwindcss": "^3.0.24"
   },
   "volta": {

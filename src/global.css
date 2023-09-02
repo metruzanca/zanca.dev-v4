@@ -1,0 +1,28 @@
+/* scrollbar */
+html {
+  @apply bg-slate-950 text-neutral-300;
+}
+
+::-webkit-scrollbar {width: 2px;}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(0deg, #6883FD 0%, #c468fd 100%);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: transparent;
+  box-shadow: 0px 0px 0px 100000vh black;
+}
+
+.text-sideways {
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  direction: rtl;
+  transform: rotate(180deg);
+}
+
+.gradient {
+  background: linear-gradient(to right, #c468fd 0%, #6883FD 100%) !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
