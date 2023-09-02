@@ -1,33 +1,18 @@
 ---
 import NavLink from './NavLink.astro';
-import { SITE_TITLE, SOCIALS } from '~/lib/consts';
-import { Github, Twitter } from '~/components/icons';
+import { SITE_TITLE } from '~/lib/consts';
 ---
-
-<header>
-	<nav class="flex justify-between items-center pb-2">
-		<h2 class="text-2xl font-extrabold text-white">
-      <a href="/">
-        <span class="text-yellow-300">{SITE_TITLE[0]}</span>
-        {SITE_TITLE.slice(1)}
-      </a>
-    </h2>
-		<div class="grid grid-flow-col gap-1">
-			<NavLink href="/">Home</NavLink>
-			<NavLink href="/blog">Blog</NavLink>
-		</div>
-		<div class="hidden sm:flex">
-			<a href={SOCIALS.X.url} target="_blank">
-				<span class="sr-only">{SOCIALS.X.alt}</span>
-        <Twitter size="24"/>
-			</a>
-			<a href={SOCIALS.GITHUB.url} target="_blank">
-				<span class="sr-only">{SOCIALS.GITHUB.alt}</span>
-				<Github size="24"/>
-			</a>
-		</div>
-	</nav>
-</header>
-<style>
-	
-</style>
+<nav class="fixed bg-slate-950 w-screen flex justify-between items-center px-3 pb-2 z-50">
+  <h2 class="text-2xl font-extrabold text-white">
+    <a href="/">
+      <span class="text-yellow-300">{SITE_TITLE[0]}</span>
+      {SITE_TITLE.slice(1)}
+    </a>
+  </h2>
+  <!-- <div class="grid grid-flow-col gap-1">
+    <NavLink href="/">Home</NavLink>
+    <NavLink href="/blog">Blog</NavLink>
+  </div> -->
+</nav>
+<!-- This is a spacer to provide a gap for the navbar since it has position:fixed -->
+<div class="h-8"/>

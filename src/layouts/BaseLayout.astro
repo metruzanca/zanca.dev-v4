@@ -17,8 +17,8 @@ const { title, description, hideFooter } = Astro.props;
 <Html>
   <Head title={title} description={description} />
   <body>
+    <Navigation />
     <main class="px-3">
-      <Navigation />
       <div class={cn("flex justify-center", Astro.props.class)}>
         <slot/>
       </div>

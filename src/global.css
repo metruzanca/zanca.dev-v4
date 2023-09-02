@@ -1,6 +1,7 @@
 /* scrollbar */
 html {
   @apply bg-slate-950 text-neutral-300;
+  scroll: smooth;
 }
 
 ::-webkit-scrollbar {width: 2px;}

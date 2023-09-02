@@ -6,3 +6,4 @@ export {default as Footer} from './Footer.astro'
 
 // Utils
 export {default as FormattedDate} from './FormattedDate.astro'
+export {default as GotoTop} from './GotoTop.astro'

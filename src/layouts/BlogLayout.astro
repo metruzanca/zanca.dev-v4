@@ -11,8 +11,8 @@ const { title, description, pubDate, updatedDate, heroImage, draft, tags } = Ast
 <Html>
   <Head title={title} description={description} />
 	<body>
+    <Navigation />
     <main class="px-3">
-      <Navigation />
 			<article class="prose prose-invert lg:prose-xl mx-auto">
 				<div>
 					{heroImage && (
