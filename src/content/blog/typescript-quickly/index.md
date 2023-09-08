@@ -16,6 +16,7 @@ If you want some examples of best practices, read on.
 
 ## Functions
 ```js
+// js
 function myFunc(value) {
   return value + 2
 }
@@ -23,6 +24,7 @@ const myArrow = value => value + 2
 ```
 
 ```ts
+// ts
 function myFunc(value: number): number {
   return value + 2
 }
@@ -38,6 +40,7 @@ If you're using propTypes, you can throw those away. Typescript does what that l
 > If you're not using the `prop-types` package, skip down to the typescript snippet
 
 ```js
+// js
 import React from 'react
 import PropTypes from 'prop-types';
 
@@ -51,6 +54,7 @@ MyComponent.propTypes = {
 ```
 <!-- TODO [twoslash + highlighter](https://fatihkalifa.com/blog/typescript-twoslash) -->
 ```ts
+// ts
 import React, FC from 'react
 type Props = {
   name: string
@@ -64,6 +68,7 @@ In both these snippets if name isn't provided, you'll get a compile error. This 
 
 If instead you wanted it to be optional you would do this:
 ```ts
+// ts
 import React, FC from 'react
 type Props = {
   // question mark denotes that name is optional.
@@ -79,6 +84,7 @@ In react, its best practice to use Arrow functions for components, since "tradit
 
 This is the equivalent in using traditional functions:
 ```ts
+// ts
 function MyComponent(props: Props): JSX.Element {
 
 }
