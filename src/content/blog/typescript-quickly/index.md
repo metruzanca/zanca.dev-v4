@@ -12,7 +12,15 @@ The best way to learn typescript is to start using it. Take a `.js` file and ren
 
 From there, just fix the red _squigglies_.
 
-If you want some examples of best practices, read on.
+> "But how?"
+
+Step 1. Read this page: [Ts basics](https://www.typescriptlang.org/docs/handbook/2/basic-types.html). This is a great primer. Don't try to study this page. Just read thru to get an _idea_ and come back to it later.
+
+Next open a project, and start changing `.js` files to `.ts`. Use the docs or ask [Perplexity](https://perplexity.ai) to explain it to you. If you provide perplexity with a snippet and the error message + a question, it does a reasonably good job at telling you whats wrong and it might even link your some more resources.
+
+
+## Best Practice Examples - js vs ts
+Below are some condensed snippets to help you move your code from js to ts.
 
 ## Functions
 ```js
@@ -89,3 +97,11 @@ function MyComponent(props: Props): JSX.Element {
 
 }
 ```
+
+---
+## Heres some Resources:
+- the [official docs](https://www.typescriptlang.org/docs/handbook/2/basic-types.html)
+- [google](https://google.com)
+- AI tools like [Perplexity](https://perplexity.ai) (my favorite way as of recently).
+- [React's learn typescript](https://react.dev/learn/typescript)
+- Heres a neat [recap](https://basarat.gitbook.io/typescript/recap) on what typescript does for us as developers.
