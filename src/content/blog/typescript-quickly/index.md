@@ -3,7 +3,7 @@ title: Learn Typescript Quickly
 slug: typescript-quickly
 pubDate: 2023-09-08T11:22:47.574Z
 # TODO updated date
-description: Typescript Crash Course
+description: Learn the Basics of Typescript in 5 minutes
 tags: ["typescript", "react"]
 ---
 
